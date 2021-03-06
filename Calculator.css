@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:cadetblue;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+.calc{
+    display: block;
+    align-items: center;
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    padding: 5%;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px;
+}
+
+.num{
+    padding: 2%;
+    border: none;
+    font-size: large;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
+
+#buttons{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.btn{
+    width: 60px;
+    font-size: large;  
+    font-family: 'Courier New', Courier, monospace;
+}
